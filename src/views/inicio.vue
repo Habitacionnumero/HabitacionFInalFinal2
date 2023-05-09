@@ -191,17 +191,17 @@ margin-top: -10px;
   }
   .meta_door, .install_door, .rgb_door{
   //padding: 10px;
-  width: 200px;
+  width: 250px;
   margin-top: -60px;
 }
 
-  //Animación de las puertas
+  //AnimaciÃ³n de las puertas
   @keyframes scroll {
     0%{
     transform: translateX(0);
     }
     100%{
-      transform: translateX(calc(-200px * 3));
+      transform: translateX(calc(-250px * 3));
     }
   }
   .pc{
