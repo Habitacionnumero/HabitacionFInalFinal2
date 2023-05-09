@@ -13,7 +13,7 @@ export default {
 <template>
     <div class="max-width padding-web">
     <div class="year_img">
-        <video  @ended="show = !show" muted playsinline autoplay src="/img/papel3.mp4"></video>
+        <video class="vidPapel"  @ended="show = !show" muted playsinline autoplay src="/img/papel3.mp4"></video>
     </div>
     <div class="year_position" :class="{active: show}"> 
         <a  href="https://www.instagram.com/p/Cg6fCzTjaxy/?utm_source=ig_web_copy_link" target= "_blank" class="year_position_1"></a>
@@ -42,6 +42,11 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
+
+.vidPapel{
+    height: 750px;
+}
+
 .year_img{
     width: 100%;
     height: 81vh;
@@ -77,75 +82,81 @@ export default {
     }
 }
 .year_position_1{
+    margin-top: 15px;
     margin-right: 105px;
-    width: 60px;
+    width: 90px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_2{
     margin-right: 55px;
-    width: 110px;
-    height: 20px;
+    width: 140px;
+    height: 30px;
     //background-color: blue;
 }
 .year_position_3{
     margin-right: 7px;
-    width: 160px;
+    width: 180px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_4{
+    margin-top: 5px;
     margin-right: 47px;
-    width: 110px;
-    height: 20px;
+    width: 140px;
+    height: 25px;
     //background-color: blue;
 }
 .year_position_5{
     margin-right: 57px;
-    width: 100px;
+    width: 130px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_6{
+    margin-top: 10px;
     margin-right: 47px;
-    width: 105px;
+    width: 135px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_7{
     margin-right: 32px;
-    width: 125px;
-    height: 20px;
+    width: 155px;
+    height: 30px;
     //background-color: blue;
 }
 .year_position_8{
+    margin-top: -3px;
     margin-right: 52px;
-    width: 100px;
-    height: 20px;
+    width: 140px;
+    height: 25px;
     //background-color: blue;
 }
 .year_position_9{
+    margin-top: -3px;
     margin-right: 65px;
-    width: 90px;
-    height: 20px;
+    width: 120px;
+    height: 25px;
     //background-color: blue;
 }
 .year_position_10{
     margin-right: 27px;
-    width: 120px;
+    width: 150px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_11{
+    margin-top: 6px;
     margin-right: 42px;
-    width: 107px;
+    width: 140px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_12{
     margin-top: 10px;
     margin-right: 37px;
-    width: 110px;
+    width: 140px;
     height: 20px;
     //background-color: blue;
 }
@@ -158,85 +169,85 @@ p{
 @media screen and (max-width: 800px){
 
 .year_position_1{
-    margin-top: -9px;
-    margin-right: 57px;
+    margin-top: 25px;
+    margin-left: -3px;
     width: 60px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_2{
-    margin-top: -8px;
-    margin-right: 15px;
+    margin-top: 3px;
+    margin-right: 60px;
     width: 110px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_3{
-    margin-top: -6px;
-    margin-right: -25px;
+    margin-top: 3px;
+    margin-right: 4px;
     width: 160px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_4{
-    margin-top: -4px;
-    margin-right: 7px;
+    margin-top: 3px;
+    margin-right: 55px;
     width: 110px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_5{
-    margin-top: -7px;
-    margin-right: 7px;
-    width: 95px;
+    margin-top: 3px;
+    margin-right: 60px;
+    width: 100px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_6{
-    margin-top: -3px;
-    margin-right: -5px;
+    margin-top: 5px;
+    margin-right: 50px;
     width: 105px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_7{
-    margin-top: -8px;
-    margin-right: -3px;
-    width: 110px;
-    height: 20px;
+    margin-top: 2px;
+    margin-right: 35px;
+    width: 130px;
+    height: 25px;
     //background-color: blue;
 }
 .year_position_8{
-    margin-top: -5px;
-    margin-right: 2px;
-    width: 100px;
+    margin-top: -2px;
+    margin-right: 55px;
+    width: 105px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_9{
-    margin-top: -9px;
-    margin-right: 15px;
+    margin-top: -1px;
+    margin-right: 70px;
     width: 90px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_10{
-    margin-top: -9px;
-    margin-right: -25px;
+    margin-top: 1px;
+    margin-right: 30px;
     width: 120px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_11{
-    margin-top: -5px;
-    margin-right: -10px;
+    margin-top: 7px;
+    margin-right: 50px;
     width: 107px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_12{
-    margin-top: -1px;
-    margin-right: -7px;
+    margin-top: 9px;
+    margin-right: 45px;
     width: 110px;
     height: 20px;
     //background-color: blue;

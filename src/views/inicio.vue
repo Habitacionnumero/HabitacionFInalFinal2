@@ -148,8 +148,8 @@
 }
 
 .main_top_doors {
-  margin-top: 70px;
-  margin-left: 280px;
+  margin-top: 100px;
+  margin-left: 200px;
 
 
 
@@ -159,7 +159,7 @@
 
 .meta_door, .install_door, .rgb_door{
 //padding: 10px;
-width: 200px;
+width: 250px;
 margin-top: -10px;
 
 }

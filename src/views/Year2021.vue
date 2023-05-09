@@ -13,7 +13,7 @@ export default {
 <template>
     <div class="max-width padding-web">
     <div class="year_img">
-        <video  @ended="show = !show" muted playsinline autoplay src="/img/papel2021.mp4"></video>
+        <video class="vidPapel"  @ended="show = !show" muted playsinline autoplay src="/img/papel2021.mp4"></video>
     </div>
     <div class="year_position" :class="{active: show}"> 
         <a  href="https://www.instagram.com/p/CS334RHj5nb/?utm_source=ig_web_copy_link" target= "_blank" class="year_position_1"></a>
@@ -34,6 +34,10 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
+
+.vidPapel{
+    height: 750px;
+}
 .year_img{
     width: 100%;
     height: 81vh;
@@ -69,71 +73,73 @@ export default {
     }
 }
 .year_position_1{
-    margin-right: 35px;
-    width: 105px;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 120px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_2{
     margin-top: -10px;
     margin-right: 20px;
-    width: 128px;
-    height: 20px;
+    width: 140px;
+    height: 30px;
     //background-color: blue;
 }
 .year_position_3{
     margin-top: -5px;
     margin-right: 38px;
-    width: 112px;
-    height: 20px;
+    width: 130px;
+    height: 30px;
     //background-color: blue;
 }
 .year_position_4{
-    margin-top: -7px;
+    margin-top: -5px;
     margin-right: 47px;
-    width: 117px;
+    width: 130px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_5{
-    margin-top: -9px;
+    margin-top: -5px;
     margin-right: 30px;
     width: 140px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_6{
-    margin-top: -10px;
+    margin-top: -5px;
     margin-right: 50px;
     width: 117px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_7{
-    margin-top: -7px;
+    margin-top: 0px;
     margin-right: 48px;
     width: 141px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_8{
-    margin-top: -9px;
+    margin-top: 0px;
     margin-right: 44px;
     width: 150px;
     height: 20px;
     //background-color: blue;
 }
 .year_position_9{
-    margin-top: -9px;
+    margin-top: -3px;
     margin-right: 95px;
     width: 120px;
-    height: 20px;
+    height: 30px;
     //background-color: blue;
 }
 .year_position_10{
+    margin-top: -2px;
     margin-right: 70px;
     width: 130px;
-    height: 20px;
+    height: 30px;
     //background-color: blue;
 }
 .active{
